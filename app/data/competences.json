@@ -1,0 +1,71 @@
+{
+ "data" : [
+   {
+     "titre" : "Language Java",
+     "description" : "Bon niveau"
+   },
+   {
+     "titre" : "Language C",
+     "description" : "niveau intermédiare"
+   },
+
+   {
+     "titre" : "Assembleur",
+     "description": "Neophyte"
+   },
+   {
+     "titre":"Language du Web",
+     "description": "Html, CSS, JScript"
+   },
+   {
+     "titre": "Sciences",
+     "description": "2 ans math physique"
+   },
+   {
+     "titre": "Langues",
+     "description": "Anglais bon niveau, Espagnol bon niveau"
+   }
+  ],
+  "experience":[
+    {"titre":"Saison 2012",
+    "description":"Comis de cuisine dans un bouchon Lyonais (La Grande Motte)"
+    },
+    {"titre":"Saison 2013",
+      "description":"Plongeur dans un restaurant de plage (La Grande Motte)"
+    }
+  ],
+  "formation":[
+    {
+      "titre": "Prépa intégré Polytech Montpellier"
+    },
+    {
+      "titre": "Ecole d'ingénieur en informatique Polytech Nice Sophia"
+    }
+
+  ],
+  "movie":
+    {
+      "deb":"Grand amateur de science fiction et d'heroic fantasy. Je peux affirmer que la sorti du seigneur des  anneaux a réellement changé ma vie et m'a aidé à devenir ce que je suis aujourd’hui, un pur produit geek culture.",
+      "fin":"J'ai pas mal trainé du côté des films de Mafia, Le parrain, L'impasse, Les Affranchis, Jacky Brown, Scarface,Donnie Brasco, Dog day afternoon mais mon number one reste Casino."
+    },
+  "game":{
+    "deb":"Pas la peine de se mentir nous en sommes tout passé par cette case certains y restent plus longtemps que d'autre et c 'est mon cas.Je suis un grand fan de jeu vidéo, parmi les domaines de divertissement, il reste de loin celui que je préfère.",
+    "fin":"My top 3 : Mass effect, Red dead redemption, Teltate series"
+  },
+
+  "sport":[
+    {
+      "titre":"Footing",
+      "description":"Hebdomadairement rythme actuel: 40 min"
+    },
+    {
+      "titre":"Badminton",
+      "description":"1 an en club, bon niveau"
+    },
+    {
+      "titre":"Tennis, ping pong",
+      "description":"Pas de quoi se la péter mais je me défends plutot bien quand ça touche aux raquettes"
+    }
+  ],
+  "sportdescription":"Un peu de sport pour se donner bonne conscience"
+}

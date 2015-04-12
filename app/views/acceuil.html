@@ -1,0 +1,25 @@
+
+<div class="centre" ng-style=stile>
+  <h1>Cinéma</h1>
+    <p>{{movies.deb}}</p>
+      <p>{{movies.fin}}<br></p>
+  <h1>Jeux vidéos</h1>
+  <p>{{games.deb}}</p>
+  <p>{{games.fin}}</p>
+  </div>
+<div class="center" ng-style=stile2>
+  <h1>Sports</h1>
+  <p>{{sportd}}</p>
+  <div ng-repeat="sport in sports" >
+    <p ><h3>{{sport.titre}}</h3><br>
+      {{sport.description}}</p>
+  </div>
+  </div>
+<script>
+  document.body.style.background= "url(images/sallejeu.jpg)";
+  document.body.style.backgroundRepeat= "no-repeat" ;
+  document.body.style.backgroundAttachment= "fixed";
+  document.body.style.backgroundSize="cover";
+
+</script>
+

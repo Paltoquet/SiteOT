@@ -1,0 +1,33 @@
+
+<!{{competences}}>
+<div class="centre" ng-style=stile>
+  <h1>Formation</h1>
+<div ng-repeat="formation in formations">
+  <p>{{formation.titre}}</p>
+  </div>
+  <h1>Compétences</h1>
+  <div ng-repeat="competence in competences">
+  <p>{{competence.titre+ ': '+competence.description}}</p>
+  </div>
+  <h1>Expérience</h1>
+  <div ng-repeat="experience in experiences">
+    <p>{{experience.titre}}<br>
+      {{experience.description}}</p>
+  </div>
+
+</div>
+<script>
+  document.body.style.background= "url(images/office.jpg)";
+  document.body.style.backgroundRepeat= "no-repeat" ;
+  document.body.style.backgroundAttachment= "fixed";
+  document.body.style.backgroundSize="cover";
+
+</script>
+
+<!--.centre {
+margin-left: 10%;
+width: 75%;
+height: 80%;
+background-color: #ffffff;
+
+}-->
